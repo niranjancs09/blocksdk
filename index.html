@@ -4,6 +4,9 @@
     <script src="blocksdk.js"></script>
     <script>
       var sdk = new window.sfdc.BlockSDK();
+      sdk.triggerAuth(function(appID){
+        appID = "3789dfec-ef69-43bf-9a43-591af9a564ca";
+      });
       // do something with the sdk
     </script>
   </body>
